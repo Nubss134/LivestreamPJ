@@ -1,0 +1,21 @@
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="db/changelog/member.xml"/>
+    <include file="db/changelog/category.xml"/>
+    <include file="db/changelog/follow.xml"/>
+    <include file="db/changelog/report.xml"/>
+    <include file="db/changelog/sensitive_word.xml"/>
+    <include file="db/changelog/streamer.xml"/>
+    <include file="db/changelog/video.xml"/>
+    <include file="db/changelog/vote.xml"/>
+    <include file="db/changelog/member_vote.xml"/>
+    <include file="db/changelog/device_token.xml"/>
+    <include file="db/changelog/history.xml"/>
+
+
+
+
+</databaseChangeLog>
